@@ -344,7 +344,7 @@ ol {
 }
 
 /* Pile only where a whole card fits on screen; otherwise the next card would cover unread text. */
-@media (min-width: 900px) and (min-height: 700px) {
+@media (min-width: 900px) and (min-height: 600px) {
   .card {
     position: sticky;
     top: calc(5.5rem + var(--i) * 1.1rem);
